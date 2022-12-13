@@ -107,7 +107,7 @@ nav {
     padding: 12px 20px;
     background: var(--main-color);
     color: #fff;
-    border-radius: 10px;
+    border-radius: 0.15rem;
     font-weight: 600;
     letter-spacing: 1px;
     border: none;
@@ -311,6 +311,81 @@ font-family: "Poppins", sans-serif;
 
   .-heading {
     margin-bottom: 2.5rem;
+  }
+
+  /* Contact */
+  .color h2 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 1.8rem;
+  }
+  .color p {
+    color: #fff;
+  }
+  #contact {
+    background: var(--second-color);
+  }
+  .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .contact-form {
+    width: 360px;
+    margin-top: 4rem;
+  }
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    font-size: 13px;
+    padding: 1rem;
+    border-radius: 0.15rem;
+    border: none;
+    outline: none;
+    margin-bottom: 12px;
+  }
+  .contact-form form input::placeholder,
+  .contact-form form textarea::placeholder {
+    color: var(--second-color);
+    letter-spacing: 1px;
+  }
+  .contact-form form textarea {
+    height: 200px;
+    resize: none;
+  }
+  .contact-button {
+    max-width: 100px;
+    font-weight: 600;
+    background: var(--main-color);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .app {
+    max-width: 360px;
+  }
+  .app h1 {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 5px 0 24px;
+  }
+  .app i {
+    color: var(--main-color);
+    font-size: 45px;
+    margin-right: 10px;
+  }
+  .app i:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+  }
+  
+  .copyright {
+    padding: 20px;
+    background: var(--second-color);
+    color: #fff;
+    text-align: center;
   }
 
   /* Responsiveness */
